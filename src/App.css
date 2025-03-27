@@ -1,10 +1,6 @@
 /* Fond de la page */
-.body{
-    width: 50% !important;
-    height: 50% !important;
-}
 .bg {
-    height: 100vh; /* Minimum 100vh, mais peut s'étendre */
+    min-height: 100vh; /* Minimum 100vh, mais peut s'étendre */
     background: 
       linear-gradient(
         74deg,
