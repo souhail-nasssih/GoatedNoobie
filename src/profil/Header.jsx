@@ -24,8 +24,9 @@ const Header = () => {
               gaming, engaging streams, and top-tier entertainment, you’re in
               the right place! Join the community and be part of the GOATED
               squad! 🚀🔥
+              
             </p>
-            
+               
           </div>
         </div>
       </div>
