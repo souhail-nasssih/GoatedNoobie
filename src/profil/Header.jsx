@@ -24,7 +24,7 @@ const Header = () => {
               gaming, engaging streams, and top-tier entertainment, you’re in
               the right place! Join the community and be part of the GOATED
               squad! 🚀🔥
-              
+
             </p>
                
           </div>
@@ -70,8 +70,8 @@ const Header = () => {
                 alt="Instagram"
                 className="social-icon"
               />
-              <h5 className="card-title mt-2">Instagram</h5>
-              <p>Follow me on Instagram for exclusive updates.</p>
+              <h5 className="card-title mt-2 text-white">Instagram</h5>
+              <p className="text-white">Follow me on Instagram for exclusive updates.</p>
             </a>
           </div>
         </div>
@@ -90,8 +90,8 @@ const Header = () => {
                 alt="Kick"
                 className="social-icon"
               />
-              <h5 className="card-title mt-2">Kick</h5>
-              <p>Check out my exclusive content on Kick.</p>
+              <h5 className="card-title mt-2 text-white">Kick</h5>
+              <p className="text-white">Check out my exclusive content on Kick.</p>
             </a>
           </div>
         </div>
@@ -110,8 +110,8 @@ const Header = () => {
                 alt="Heart"
                 className="social-icon"
               />
-              <h5 className="card-title mt-2">YouTube</h5>
-              <p>Subscribe to my YouTube channel for exclusive videos.</p>
+              <h5 className="card-title mt-2 text-white">YouTube</h5>
+              <p className="text-white">Subscribe to my YouTube channel for exclusive videos.</p>
             </a>
           </div>
         </div>
