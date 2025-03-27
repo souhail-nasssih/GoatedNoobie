@@ -4,7 +4,7 @@
     height: 50% !important;
 }
 .bg {
-    min-height: 100vh; /* Minimum 100vh, mais peut s'étendre */
+    height: 100vh; /* Minimum 100vh, mais peut s'étendre */
     background: 
       linear-gradient(
         74deg,
