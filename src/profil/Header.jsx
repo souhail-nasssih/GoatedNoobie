@@ -6,7 +6,7 @@ const Header = () => {
     <div className="container d-flex flex-column text-center">
       {/* Logo */}
       <div className="container-fluid d-flex flex-column text-center mt-3">
-        <div className="row justify-content-center align-items-center w-100">
+        <div className="row justify-content-center align-items-center">
           {/* Logo */}
           <div className="col-12 col-md-4 text-center mb-3 mb-md-0">
             <img src="gote2.png" className="logo img-fluid" alt="Logo" />
