@@ -8,7 +8,7 @@
         rgba(24, 252, 104, 0.425) 50%,
         rgba(0, 0, 0, 1) 100%
       ),
-      url("../public/bg1.jpg");
+      url("bg1.jpg");
     background-size: cover; 
     background-position: center; /* Ajustement du positionnement */
     background-repeat: no-repeat; 
