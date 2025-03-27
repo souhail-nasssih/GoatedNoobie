@@ -1,4 +1,8 @@
 /* Fond de la page */
+.body{
+    width: 50% !important;
+    height: 50% !important;
+}
 .bg {
     min-height: 100vh; /* Minimum 100vh, mais peut s'étendre */
     background: 
