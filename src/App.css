@@ -1,0 +1,79 @@
+/* Fond de la page */
+.bg {
+    min-height: 100vh; /* Minimum 100vh, mais peut s'étendre */
+    background: 
+      linear-gradient(
+        74deg,
+        rgba(0, 0, 0, 0.74) 0%,
+        rgba(24, 252, 104, 0.425) 50%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("../public/bg1.jpg");
+    background-size: cover; 
+    background-position: center; /* Ajustement du positionnement */
+    background-repeat: no-repeat; 
+  
+}
+
+/* Police de caractère */
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Style du logo */
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Style des icônes des réseaux sociaux */
+.social-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Zoom au survol des icônes */
+}
+
+/* Style des cartes des réseaux sociaux */
+.social-card {
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-card:hover {
+    transform: translateY(-10px); /* Décalage de la carte au survol */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée */
+}
+
+.social-card .card-body {
+    padding: 20px;
+    text-decoration: none;
+    text-align: center; /* Centrer le texte dans la carte */
+}
+
+.social-card .card-body i {
+    color: #fff;
+    font-size: 2rem; /* Taille de l'icône */
+}
+
+.social-card .card-body h5 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.social-card .card-body p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
