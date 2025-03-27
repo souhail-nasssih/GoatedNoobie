@@ -26,6 +26,7 @@
 .logo {
     width: 250px;
     height: auto;
+    margin: 0 auto; /* Centre horizontalement le logo */
 }
 
 /* Style des icônes des réseaux sociaux */
