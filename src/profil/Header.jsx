@@ -4,31 +4,28 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const Header = () => {
   return (
     <div className="container d-flex flex-column text-center">
-      {/* Logo */}
-      <div className="container d-flex flex-column text-center mt-3">
+      {/* Section Logo + Texte */}
+      <div className="header-section w-100">
         <div className="row justify-content-center align-items-center">
           {/* Logo */}
-          <div className="col-12 col-md-4 text-center mb-3 mb-md-0">
-            <img src="moussawi.png" className="logo img-fluid" alt="Logo" />
+          <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
+            <img
+              src="moussawi.png"
+              className="img-fluid"
+              alt="Logo"
+              style={{ maxWidth: "200px", borderRadius: "10px" }}
+            />
           </div>
 
           {/* Texte */}
-          <div className="col-12 col-md-8 text-center text-md-start px-3 mt-5">
-            <h1 className="text-white fw-bold mb-3 boldonse-regular text-left">
-              Moussaoui
-            </h1>
-            <p className="text-white text-justify">
-              🎮 I am <strong>Moussaoui</strong>, a passionate streamer on
-              Kick! Delivering the most entertaining, high-energy gaming content
-              — from insane plays to hilarious fails. If you're into competitive
-              games, chill vibes, and unforgettable moments, you’re in the right
-              place. Join the community and become part of the Moussaoui Squad!
-              🚀🔥
+          <div className="col-12 col-md-8 text-center text-md-start px-3 mt-3 mt-md-0">
+            <h1 className="header-title fw-bold mb-3">Moussaoui</h1>
+            <p className="text-white header-description mx-auto mx-md-0">
+              🎮 I am <strong>Moussaoui</strong>, a passionate streamer on Kick! Delivering the most entertaining, high-energy gaming content — from insane plays to hilarious fails. If you're into competitive games, chill vibes, and unforgettable moments, you’re in the right place. Join the community and become part of the Moussaoui Squad! 🚀🔥
             </p>
           </div>
         </div>
       </div>
-
       {/* Section Réseaux Sociaux */}
       <div>
         <h2 className="text-white fw-bold text-center mt-5 boldonse-regular fs-4 !importent">
