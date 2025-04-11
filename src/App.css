@@ -88,6 +88,7 @@
   }
   
   .header-section {
+    margin-top: 15px;
     background: rgba(0, 0, 0, 0.336);
     border-radius: 15px;
     padding: 30px 20px;
